@@ -1,0 +1,155 @@
+@font-face {
+    font-family: titreFont;
+    src: url(titre.ttf);
+}
+
+@font-face {
+    font-family: textFont;
+    src: url(text.ttf);
+}
+
+@font-face {
+    font-family: symbole;
+    src: url(tngani.ttf);
+}
+
+body {
+    font-family: textFont;
+    background: url("ressource/bg_light.png");
+}
+
+.nav1 {
+    font-family: titreFont;
+    background: #f50;
+    color: #fff;
+}
+
+.nav1 a {
+    color: #fff;
+}
+
+.nav2 a {
+    color: #f50;
+}
+
+.marge {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.titleDescript {
+    font-size: 1.30em;
+}
+
+.descript {
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000;
+    font-size: 2.5em;
+    bottom: 0;
+}
+
+.wantitle {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.25em;
+    box-shadow: 0px 0px 3px 3px #fff;
+    opacity: 0.85;
+}
+
+.wantitle span {
+    color: #f50;
+}
+
+.wantDead {
+    text-align: center;
+    color: #f50;
+    font-size: 3em;
+    margin-top: 10%;
+}
+
+.dead {
+    text-decoration: line-through #f50;
+}
+
+.wantext {
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.bg-black {
+    background: #000;
+    padding: 5px;
+}
+
+.whiteDescript {
+    color: #fff;
+    font-size: 2em;
+    word-wrap: break-word;
+}
+
+.noBg {
+    background: transparent;
+}
+
+.noBg:hover img {
+    z-index: 1;
+}
+
+.ij {
+    font-family: symbole;
+    color: #f50;
+}
+
+section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+section h2 {
+    text-indent: 3%;
+}
+
+.burger {
+    display: none;
+    visibility: hidden;
+}
+
+#azerty {
+    position: absolute;
+    right: 0;
+    padding: 0% 10%;
+    background: #f50;
+    display: none;
+    z-index: 1;
+}
+
+#azerty a {
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 1045px) {
+    section h2 {
+        font-size: large;
+    }
+    .descript {
+        font-size: 1em;
+    }
+    .burger {
+        display: inline-block;
+        visibility: visible;
+    }
+    .link1 {
+        display: none;
+        visibility: hidden;
+    }
+}
